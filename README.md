@@ -7,7 +7,7 @@ Dockerize pelican framework
 
 First, fork this repo, as it's going to contain your site source code (markdown), and clone it on your docker host:
 
-    git clone git@github.com:USERNAME/docker-pelican
+    git clone https://github.com/kevcisme/docker-pelican.git
     cd docker-pelican
 
 Build the image manually from the included Dockerfile:
