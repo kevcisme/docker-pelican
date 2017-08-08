@@ -1,5 +1,5 @@
-FROM ubuntu:14.04
-MAINTAINER jderuere <deruere.julien@gmail.com>
+FROM ubuntu:16.04
+MAINTAINER kev c <kevin.s.coyle@gmail.com>
 
 # Update OS
 RUN sed -i 's/# \(.*multiverse$\)/\1/g' /etc/apt/sources.list
